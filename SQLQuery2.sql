@@ -7,7 +7,7 @@ CREATE TABLE sales (
     region VARCHAR(50) NOT NULL,            -- Region where the sale occurred
     salesperson VARCHAR(100) NOT NULL,     -- Name of the salesperson
     total_sales DECIMAL(10, 2) NOT NULL,   -- Total sales amount (e.g., 12345.67)
-    sale_date DATE                         -- Date of the sale (optional)
+    sale_date DATE                         
 );
 
 
